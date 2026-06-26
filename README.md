@@ -1,16 +1,79 @@
-# React + Vite
+# React Utility Hub 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple utility application built using React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🌐 Text Translator
 
-## React Compiler
+* Translate English text to other languages.
+* RapidAPI integration support.
+* Clean and responsive UI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔀 Random String Generator
 
-## Expanding the ESLint configuration
+* Generate random alphanumeric strings.
+* Implemented using:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * useState
+  * useEffect
+  * useCallback
+
+### 🧭 Client-Side Routing
+
+* Implemented using React Router DOM.
+* Pages:
+
+  * Home
+  * Translator
+  * Random Generator
+
+## Tech Stack
+
+* React.js
+* Vite
+* Tailwind CSS
+* React Router DOM
+* Axios
+* RapidAPI
+
+## Project Structure
+
+```text
+react-utility-hub
+│
+├── public
+├── src
+│   ├── components
+│   ├── hooks
+│   ├── pages
+│   ├── services
+│   ├── utils
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+VITE_RAPIDAPI_KEY=YOUR_API_KEY
+VITE_RAPIDAPI_HOST=google-api31.p.rapidapi.com
+```
+
+## Author
+
+**Nandini**
